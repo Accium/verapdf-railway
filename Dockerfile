@@ -1,3 +1,3 @@
-FROM verapdf/rest:1.28
+FROM verapdf/rest:latest
 
 EXPOSE 8080
