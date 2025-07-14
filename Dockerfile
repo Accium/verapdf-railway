@@ -50,7 +50,6 @@ COPY --from=app-builder /build/server.yml /var/opt/verapdf-rest/config/
 # Copiamos la carpeta config (incluye validator.xml y features.xml)
 COPY --from=app-builder /build/config /opt/verapdf-rest/config/
 
-VOLUME /var/opt/verapdf-rest
 EXPOSE 8080 8081
 
 ENTRYPOINT [ "dumb-init", "--" ]
