@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <validatorConfig>
-  <!-- VALIDATE_EXTRACT hace validación + extracción de features -->
+  <!-- VALIDATE_EXTRACT activa validación + extracción de features -->
   <appConfig type="VALIDATE_EXTRACT" format="XML" isVerbose="true"/>
 </validatorConfig>
