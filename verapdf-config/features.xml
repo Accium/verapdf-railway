@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featuresConfig>
+  <!-- habilita extracción de metadatos, imágenes y estructura -->
+  <featureExtraction>
+    <metadata>true</metadata>
+    <images>true</images>
+    <structure>true</structure>
+  </featureExtraction>
+</featuresConfig>
