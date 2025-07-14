@@ -1,7 +1,9 @@
 FROM verapdf/rest:latest
 
-# Copia tus configuraciones a la carpeta de config de veraPDF-rest
-COPY ./verapdf-config/validator.xml /opt/verapdf-rest/config/validator.xml
-COPY ./verapdf-config/features.xml  /opt/verapdf-rest/config/features.xml
+# Copiamos la configuración de validación “verbose”
+COPY verapdf-config/validator.xml   /opt/verapdf-rest/config/validator.xml
+
+# Copiamos la configuración de extracción de features
+COPY verapdf-config/features.xml    /opt/verapdf-rest/config/features.xml
 
 EXPOSE 8080
