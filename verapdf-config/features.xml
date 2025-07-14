@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <featuresConfig>
-  <!-- habilita extracción de metadatos, imágenes y estructura -->
-  <featureExtraction>
-    <metadata>true</metadata>
-    <images>true</images>
-    <structure>true</structure>
-  </featureExtraction>
+  <enabledFeatures>
+    <!-- Esto habilita la extracción de metadatos XMP/Dublin Core -->
+    <feature>METADATA</feature>
+    <!-- Esto habilita la extracción de imágenes -->
+    <feature>IMAGES</feature>
+    <!-- Esto habilita la extracción de estructura interna (headings, figuras, etc.) -->
+    <feature>STRUCTURE</feature>
+  </enabledFeatures>
 </featuresConfig>
