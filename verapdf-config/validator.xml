@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <validatorConfig>
-  <!-- VALIDATION MRR completo en XML y verbose ON -->
   <appConfig type="VALIDATE" format="XML" isVerbose="true"/>
-  <!-- opcionalmente puedes personalizar más aquí -->
 </validatorConfig>
