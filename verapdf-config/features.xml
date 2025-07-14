@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <featuresConfig>
-  <enabledFeatures>
-    <feature>METADATA</feature>
-    <feature>IMAGES</feature>
-    <feature>STRUCTURE</feature>
-  </enabledFeatures>
+    <enabledFeatures>
+        <!-- Metadata stream (dc:title, autor, etc.) -->
+        <feature>INFORMATION_DICTIONARY</feature>
+        <!-- Extracción de imágenes -->
+        <feature>IMAGE_XOBJECT</feature>
+        <!-- Estructura (headings, figuras, tablas, etc.) -->
+        <feature>STRUCTURE</feature>
+    </enabledFeatures>
 </featuresConfig>
