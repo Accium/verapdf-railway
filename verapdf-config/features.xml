@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <featuresConfig>
   <enabledFeatures>
-    <!-- Metadatos XMP/Dublin Core -->
+    <!-- Información básica del documento -->
     <feature>INFORMATION_DICTIONARY</feature>
-    <!-- Objetos de imagen -->
+    <!-- XMP metadata: dc:title, dc:creator, etc. -->
+    <feature>METADATA</feature>
+    <!-- Imágenes contenidas en el PDF -->
     <feature>IMAGE_XOBJECT</feature>
   </enabledFeatures>
 </featuresConfig>
