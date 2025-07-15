@@ -5,7 +5,5 @@
     <feature>INFORMATION_DICTIONARY</feature>
     <!-- Objetos de imagen -->
     <feature>IMAGE_XOBJECT</feature>
-    <!-- Estructura interna: headings, tablas, figuras… -->
-    <feature>STRUCTURE</feature>
   </enabledFeatures>
 </featuresConfig>
