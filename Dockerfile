@@ -1,7 +1,7 @@
 FROM verapdf/rest:latest
 
 # Bump this number (o la fecha) cada vez que necesitemos forzar un nuevo COPY
-ARG CACHEBUST=20250714-1600
+ARG CACHEBUST=20250714-1700
 
 COPY verapdf-config/validator.xml /opt/verapdf-rest/config/validator.xml
 COPY verapdf-config/features.xml  /opt/verapdf-rest/config/features.xml
